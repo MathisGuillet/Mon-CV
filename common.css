@@ -1,0 +1,206 @@
+*{
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+body h1{
+  color: #f2f2f2;
+  background: #239B56;
+  font-size: 75px;
+  line-height: 74px;
+  font-weight: 700;
+  margin: 0 5px 24px;
+  float: left;
+  padding: 10px;
+  font-family: 'Libre Baskerville', serif;
+  border-radius: 10px;
+}
+
+
+#imgprofil{
+  margin: 30px 70px 0 0;
+  float: right;
+  width: 200px;
+  -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+     -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+      -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+         transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
+
+nav ul{
+  border-radius: 10px;
+  background: #1C2833;
+}
+
+nav ul li{
+  list-style: none;
+  display: table-cell;
+}
+
+nav ul li a{
+  color: #239B56;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+  display: inline-table;
+  padding: 8px 10px 17px 8px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset,
+                0 -1px 0 hsl(210, 29%, 13%) inset,
+                0 -2px 0 hsl(210, 29%, 13%) inset,
+                0 -3px 0 hsl(210, 29%, 13%) inset,
+                0 -4px 0 hsl(210, 29%, 13%) inset,
+                0 -5px 0 hsl(210, 29%, 13%) inset;
+  transition: all .3s .1s;
+  position: relative;
+}
+
+p{
+  margin-top: 20px;
+}
+
+footer{
+  padding: 10px 0;
+  background: linear-gradient(white, gainsboro);
+  border-radius: 8px;
+}
+
+footer p{
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+}
+
+body{
+  width: 100%
+}
+
+.informations{
+  float: right;
+  margin-right: 20px;
+  margin-top: -10px;
+  font-size: 110%;
+}
+
+.formations{
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: #F8F9F9;
+  width: 600px;
+  border-color: #239B56;
+  padding-left: 50px;
+  margin-left: 120px;
+  -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+     -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+      -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+         transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
+
+.experiences{
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: #F8F9F9;
+  width: 600px;
+  border-color: #239B56;
+  padding-left: 50px;
+  margin-left: 120px;
+  -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+     -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+      -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+         transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
+
+.experiences-class{
+  margin-left: 500px;
+  padding-top: 10px;
+}
+
+.competences-class{
+  margin-left: 500px;
+}
+
+.formations-class{
+  margin-left: 500px;
+  padding-top: 10px;
+}
+
+.competences{
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: #F8F9F9;
+  width: 600px;
+  height: 450px;
+  border-color: #239B56;
+  padding-left: 50px;
+  margin-left: 800px;
+  margin-top: 10px;
+  -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+     -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+      -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+         transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
+
+.loisirs-class{
+  margin-left: 500px;
+}
+
+#premiere-page{
+  margin: -1100px 0 0 -175px;
+  z-index: 1;
+  width: 110%;
+  position: absolute;
+  background: transparent;
+}
+
+#profil-id{
+  color: #000;
+  text-align: center;
+  font-size: 150%;
+}
+
+#titre-id{
+  margin-left: 120px;
+  color: #000;
+}
+
+#titcomp-id{
+  color: #000;
+  margin: -490px 0 0 800px;
+}
+
+#contact-id{
+  text-align: center;
+  margin-top: 75px;
+  font-size: 25px;
+}
+
+#drone{
+  position: absolute;
+  width: 100px;
+  margin: 60px 0 0 630px;
+}
+
+#musique{
+  position: absolute;
+  width: 40px;
+  margin: 15px 0 0 660px;
+}
+
+#montage{
+  position: absolute;
+  width: 40px;
+  margin: 175px 0 0 660px;
+}
+
+#manette{
+  position: absolute;
+  width: 60px;
+  margin: 255px 0 0 650px;
+}
+
+#accueil, #exp, #form, #comp, #loisirs, #cont{
+  background-image: url(http://kami-ln.com/sites/all/themes/cav/kamIMG/fond-camille.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

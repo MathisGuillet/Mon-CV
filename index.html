@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon CV</title>
+  <meta name="description" content="Mon CV">
+  <meta name="og:title" content="Mon CV">
+  <meta name="viewport" content="width=device-width, maximum-scale=1"/>  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="animate.css">
+  <style rel="stylesheet" type="text/css">
+  nav ul li a:hover, nav ul li a[title=Accueil]{
+  /*hover = au passage de la souris*/
+  color: #8B8C8C;
+}
+
+ul li:first-child a{
+    border-radius: 3px 0 0 3px;
+}
+ul li:last-child a{
+    border-radius: 0 3px 3px 0;
+}
+ul li a:hover,
+ul li a:focus{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset,
+                0 -1px 0 hsl(210, 0%, 81%) inset,
+                0 -2px 0 hsl(210, 0%, 81%) inset,
+                0 -3px 0 hsl(210, 0%, 81%) inset,
+                0 -4px 0 hsl(210, 0%, 81%) inset,
+                0 -5px 0 hsl(210, 0%, 81%) inset;
+    transition: all .3s 0s;
+    padding: 8px 25px 17px 25px;
+}
+ul li a:active{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1));
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+
+ul li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    margin-left: -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+}
+ul li a:hover::before,
+ul li a:focus::before{
+    background: white;
+    box-shadow: 0 0 2px white,
+                0 -1px 0 rgba(0, 0, 0, .4);
+}
+
+#imgprofil:hover{
+-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
+#imgprofil:not(:hover){
+-webkit-filter: grayscale(1) blur(5px);
+    -moz-filter: grayscale(1) blur(5px);
+     -ms-filter: grayscale(1) blur(5px);
+      -o-filter: grayscale(1) blur(5px);
+         filter: grayscale(1) blur(5px);
+}
+
+.formations:hover{
+-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
+.competences:hover{
+-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
+.experiences:hover{
+-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
+
+
+
+</style>
+  </head>
+
+  <body id="accueil">
+    <div class="container animated bounce">
+    <h1>Mathis Guillet</h1>
+</div>
+
+<div class="container animated slideInRight">
+      <h2>Developpeur informatique</h2>
+</div>
+
+
+
+  <header>
+  <nav>
+  <ul>
+    <li><a href="index.html" title="Accueil">Accueil</a></li>
+    <li><a href="experiences.html" title="Mes-experiences">Experiences</a></li>
+    <li><a href="formations.html" title="Mes-formations">Diplomes & Formations</a></li>
+    <li><a href="loisirs.html" title="Mes-loisirs">Loisirs</a></li>
+    <li><a href="competences.html" title="Mes-compétences">Competences</a></li>
+    <li><a href="contact.html" title="Me-contacter">Contact</a></li>
+  </ul>
+  </nav>
+
+
+</header>
+  <section>
+    <p id="profil-id">Après avoir obtenu mon baccalauréat STI2D, j'ai continué ma formation a l'IMIE, dans une école informatique pour préparer un bac +5. Je suis à la recherche d'un stage dans le développement informatique.</p>
+  <img id="imgprofil" src="https://cdn.pixabay.com/photo/2017/02/23/13/05/profile-2092113_960_720.png" alt="photo de profile">
+
+    <h2 id="titre-id">Diplomes & Formations</h2>
+    <div class="formations">
+      <h4><li>IT START</li></h4>
+      <p>IMIE ecole de la filiere numerique,Orvault. Septembre 2017 a Avril 2018</p>
+      <h4><li>Baccalaureat</li></h4>
+      <p>Lycee Jean de Lattre de Tassigny, La Roche sur yon</p>
+      <h4><li>Brevet des colleges</li></h4>
+      <p>college St Pierre, les Essarts</p>
+    </div>
+
+    <div class="informations">
+    <p><li>Né le 10/11/1999</li></p>
+    <p><li>mathis.guillet@imie.fr</li></p>
+    <p><li>8 Boulevard Mendès France 44700 Orvault</li></p>
+    <p><li>06 74 29 28 26</li></p>
+    <p><li>Célibataire</li></p>
+    <p><li>Français</li></p>
+    <p><li>Permis B</li></p>
+  </div>
+
+      <h2 id="titre-id">Experiences</h2>
+    <div class="experiences">
+      <p><li>Assesseur des publicités sur Internet pour la France sur Lionbridge.</li></p>
+      <p><li>2016-2017/Projet de sp&eacute;cialité SIN (système d'information et numérique) sur la création d'un ballon de sonde d'une durée de 90 heures.</li></p>
+      <p><li>2016/Participation au jury du 7ème festival international du film de la Roche sur Yon.</li></p>
+    </div>
+
+      <h2 id="titcomp-id">Competences</h2>
+      <div class="competences">
+        <h3>Informatique:</h3>
+        <p><li>Html/CSS</li></p>
+        <p><li>Database</li></p>
+        <p><li>Mysql</li></p>
+        <p><li>Programmation orientée objet</li></p>
+        <p><li>Algorithme</li></p>
+        <h3>Logiciels:</h3>
+        <p><li>Sony vegas pro</li></p>
+        <p><li>Eclipse</li></p>
+        <p><li>Arduino</li></p>
+        <p><li>Unity</li></p>
+        <div style="margin: -300px 0 0 400px">
+        <h3>Langues:</h3>
+        <p><li>Anglais</li></p>
+        <p><li>Espagnol</li></p>
+      </div>
+      </div>
+
+  </section>
+
+    <footer style="margin-top: 156px">
+      <p>copyright 2017 - Mon CV</p>
+    </footer>
+  </body>
+</html>

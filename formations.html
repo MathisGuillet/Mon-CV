@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formations</title>
+  <meta name="description" content="Mon CV">
+  <meta name="og:title" content="Mon CV">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="animate.css">
+  <style rel="stylesheet" type="text/css">
+  nav ul li a:hover, nav ul li a[title=Mes-formations]{
+  color: #8B8C8C;
+}
+
+ul li:first-child a{
+    border-radius: 3px 0 0 3px;
+}
+ul li:last-child a{
+    border-radius: 0 3px 3px 0;
+}
+ul li a:hover,
+ul li a:focus{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset,
+                0 -1px 0 hsl(210, 0%, 81%) inset,
+                0 -2px 0 hsl(210, 0%, 81%) inset,
+                0 -3px 0 hsl(210, 0%, 81%) inset,
+                0 -4px 0 hsl(210, 0%, 81%) inset,
+                0 -5px 0 hsl(210, 0%, 81%) inset;
+    transition: all .3s 0s;
+    padding: 8px 25px 17px 25px;
+}
+ul li a:active{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1));
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+
+ul li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    margin-left: -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+}
+ul li a:hover::before,
+ul li a:focus::before{
+    background: white;
+    box-shadow: 0 0 2px white,
+                0 -1px 0 rgba(0, 0, 0, .4);
+}
+</style>
+  </head>
+
+  <body id="form">
+    <div class="container animated pulse">
+    <h1>Mathis Guillet</h1>
+</div>
+    <h2>Developpeur informatique</h2>
+  <header>
+  <nav>
+  <ul>
+    <li><a href="index.html" title="Accueil">Accueil</a></li>
+    <li><a href="experiences.html" title="Mes-experiences">Experiences</a></li>
+    <li><a href="formations.html" title="Mes-formations">Diplomes & Formations</a></li>
+    <li><a href="loisirs.html" title="Mes-loisirs">Loisirs</a></li>
+    <li><a href="competences.html" title="Mes-compétences">Competences</a></li>
+    <li><a href="contact.html" title="Me-contacter">Contact</a></li>
+  </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>Diplomes & Formations</h2>
+  <div class="formations-class">
+    <h4><li>IT START</li></h4>
+    <p>IMIE ecole de la filiere numerique,Orvault. Septembre 2017 a Avril 2018</p>
+    <h4 style="padding: 20px;"><li>Baccalaureat</li></h4>
+    <p>Lycee Jean de Lattre de Tassigny, La Roche sur yon</p>
+    <h4 style="padding: 20px;"><li>Brevet des colleges</li></h4>
+    <p>college St Pierre, les Essarts</p>
+  </div>
+</section>
+<footer style="margin-top: 388px">
+  <p>copyright 2017 - Mon CV</p>
+</footer>
+</body>
+</html>
